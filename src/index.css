@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  scroll-behavior: smooth;
+}
+
+.bg{
+  background-image: url(../assets/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn{
+  background: rgba( 35, 35, 35, 0.3 );
+  box-shadow: 0 8px 32px 0 rgba(46, 47, 54, 0.37);
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+}
+
+.spinner {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: 
+    radial-gradient(farthest-side,#7ed993 94%,#0000) top/8px 8px no-repeat,
+    conic-gradient(#0000 30%,#7ed993);
+  -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
+  animation:s3 1s infinite linear;
+}
+
+@keyframes s3{ 
+  100%{transform: rotate(1turn)}
+}
+
+.card_data{
+    backdrop-filter: blur(11px) saturate(163%);
+    -webkit-backdrop-filter: blur(11px) saturate(163%);
+    background-color: rgba(61, 61, 61, 0.61);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+footer {
+  color: white;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: inherit;
+}
+
+strong {
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding: 3px;
+  background-color: #4cd964;
+  border-color: black;
+  padding-top: -0px;
+}
