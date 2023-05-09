@@ -54,7 +54,7 @@ export default function Card(props) {
             course.description.length>100 ? (course.description.substr(0,100) + "...") : (course.description)
           }
         </p>
-        <strong> <a href="https://sosamson.com" target = "_blank" 
+        <strong> <a href="google.com" target = "_blank" 
 rel = "noopener noreferrer">Access Course</a></strong>
       </div>  
 
