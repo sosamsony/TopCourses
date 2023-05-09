@@ -71,7 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 #### The app is now running
-<br />
 
 ### Don't forget to star this repository✨✨.
 
