@@ -60,7 +60,7 @@ function App() {
           }
         </div>
       </div>
-      <footer> © {new Date().getFullYear()} Finestwine Network. Developed By <a href="https://sosamson.com" target = "_blank" 
+      <footer> © {new Date().getFullYear()} Top Courses. Developed By <a href="https://sosamson.com" target = "_blank" 
 rel = "noopener noreferrer">Sosamson</a>. All rights reserved.</footer>
     </div>
     
